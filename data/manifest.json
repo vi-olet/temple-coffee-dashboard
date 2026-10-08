@@ -1,0 +1,165 @@
+{
+  "snapshot_schema_version": 1,
+  "exported_at": "2026-10-01T01:57:18+00:00",
+  "source": "supabase",
+  "ranking_run_id": 1,
+  "demand_run_id_primary": 5,
+  "demand_run_id_scored": 5,
+  "guard": {
+    "passed": true,
+    "checks": [
+      {
+        "check": "Phase 4 store baselines (huff_cannibalization)",
+        "passed": true,
+        "n": 36,
+        "n_failed": 0,
+        "max_abs_diff": 4.3655745685100555e-11,
+        "detail": ""
+      },
+      {
+        "check": "Phase 4 leave-one-out cannibalization",
+        "passed": true,
+        "n": 288,
+        "n_failed": 0,
+        "max_abs_diff": 8.36735125631094e-11,
+        "detail": ""
+      },
+      {
+        "check": "Phase 6 candidate cannibalization",
+        "passed": true,
+        "n": 1080,
+        "n_failed": 0,
+        "max_abs_diff": 0.0,
+        "detail": ""
+      }
+    ]
+  },
+  "files": {
+    "stores": {
+      "rows": 9,
+      "bytes": 6107,
+      "sha256": "967ce6527ad55bc763349706a9529a46708144af070f5f47e8e3cf5e29468465",
+      "data_character": "REAL"
+    },
+    "competitors": {
+      "rows": 378,
+      "bytes": 22997,
+      "sha256": "ad184a032680f91cfbcf4957cbccd5afe6d77bfe999077611f9ee49518cbfa86",
+      "data_character": "REAL"
+    },
+    "block_groups": {
+      "rows": 1568,
+      "bytes": 655021,
+      "sha256": "0636322f319be812e69cd9f77bcdbfc883d098fb3c19b3a9f0ec21171682137b",
+      "data_character": "REAL"
+    },
+    "isochrones": {
+      "rows": 27,
+      "bytes": 64474,
+      "sha256": "e8b98a1361fed2f72cd03db416aeabf5b1279ed1d6a5f6ea00739f74defcc282",
+      "data_character": "REAL"
+    },
+    "commercial_landuse": {
+      "rows": 1595,
+      "bytes": 172943,
+      "sha256": "73c413b4cdaff36afc2cb3407ecaf74492bbb1e141c061b6e3e5f725175bb017",
+      "data_character": "REAL"
+    },
+    "distance_matrix": {
+      "rows": 111628,
+      "bytes": 1509908,
+      "sha256": "1d6d7517388b85d1a8171b4761a5aa21c3093c6d1db2c72f1a095f2ae2577db0",
+      "data_character": "REAL"
+    },
+    "huff_origins": {
+      "rows": 946,
+      "bytes": 11934,
+      "sha256": "04c45be2f60ff1cc2ce5753b6ae3d601f8ee12b708ffbbd7a56458d1fe113b12",
+      "data_character": "REAL"
+    },
+    "attractiveness_snapshot": {
+      "rows": 118,
+      "bytes": 6768,
+      "sha256": "6dbf7ab850b8237813504f60f36347ba9ecdbd230bd19ff1240f56f99d38a56b",
+      "data_character": "PROXY"
+    },
+    "trade_areas": {
+      "rows": 27,
+      "bytes": 15169,
+      "sha256": "2cff2a57893d733f3a18b5a0a9de9a020ed617ed88914dc0076eda9e37d834e2",
+      "data_character": "MODELED"
+    },
+    "huff_pull_share": {
+      "rows": 34020,
+      "bytes": 698267,
+      "sha256": "f5d2fc649e4d027ae7f4215b8705d7f8c92906a262565e0fcf5059aebc4636b2",
+      "data_character": "MODELED"
+    },
+    "huff_cannibalization": {
+      "rows": 288,
+      "bytes": 13751,
+      "sha256": "996348b67927b351c420e64de2f852d7c686a459a2c3d757352fcaca93ce68e7",
+      "data_character": "MODELED"
+    },
+    "demand_model_runs": {
+      "rows": 6,
+      "bytes": 9888,
+      "sha256": "b076097a7b8e727dae59075235520b8cad38b382a7c086cb7ebb650fc7b38d00",
+      "data_character": "MODELED"
+    },
+    "demand_model_predictions": {
+      "rows": 708,
+      "bytes": 24995,
+      "sha256": "796502de3485c2882c3493728817210bc7ea3186b6df9399a4ce7350b010b396",
+      "data_character": "MODELED"
+    },
+    "demand_model_shap_values": {
+      "rows": 7080,
+      "bytes": 34622,
+      "sha256": "1d60a56604daaeab062044a71f667d7704bebe8af6825face99021e7e74e817e",
+      "data_character": "MODELED"
+    },
+    "site_ranking_runs": {
+      "rows": 1,
+      "bytes": 6231,
+      "sha256": "dc3f3275b2e4a7e02830d72d645245d7263293177ee864f563660891828d47be",
+      "data_character": "MODELED"
+    },
+    "candidate_grid_scores": {
+      "rows": 483,
+      "bytes": 109286,
+      "sha256": "5b83b49faafd1b864d71e731a7b02734953ae09237a4148dce9b69af6a54e600",
+      "data_character": "MODELED"
+    },
+    "candidate_sites": {
+      "rows": 30,
+      "bytes": 14344,
+      "sha256": "972c19876cceca77ea33806cba8665df760a79fd6605c34f7a5e51bb4f1c42f6",
+      "data_character": "MODELED"
+    },
+    "candidate_distance_matrix": {
+      "rows": 28380,
+      "bytes": 411959,
+      "sha256": "d6d2694f56ca66f589a2df7f1109b3f10cc81be166232f3e7ac0bd3f52277627",
+      "data_character": "REAL"
+    },
+    "candidate_demand_attributions": {
+      "rows": 300,
+      "bytes": 8097,
+      "sha256": "1493599a98cd8fe949589329bac533f1b3d45c54c759051d00928224bc83d7a7",
+      "data_character": "MODELED"
+    },
+    "candidate_cannibalization": {
+      "rows": 1080,
+      "bytes": 36470,
+      "sha256": "a4fb2f0f7ce5b1cc2203232bf718b7590d612f453156a46ec65395db77c111d3",
+      "data_character": "MODELED"
+    },
+    "candidate_rankings": {
+      "rows": 600,
+      "bytes": 24294,
+      "sha256": "0746df56bd823554b9545cd8a018f67abe3f00e92a5f27503586691318e10611",
+      "data_character": "MODELED"
+    }
+  }
+}

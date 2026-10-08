@@ -1,0 +1,8 @@
+# Dashboard runtime only (Hugging Face Space image). Versions = the set Phase 7 was tested with.
+# Deliberately no psycopg2 / geopandas / sklearn: the app reads the Parquet snapshot (D75).
+streamlit==1.64.0
+pandas==3.0.2
+numpy==2.4.4
+pyarrow==25.0.1
+pydeck==0.9.3
+plotly==7.1.0
