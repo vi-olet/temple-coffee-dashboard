@@ -1,6 +1,6 @@
 # Where should Temple Coffee open its tenth store?
 
-**[Open the live dashboard →]([YOUR-APP-LINK](https://temple-coffee-dashboard-9eatayew7d9vqztbbb9ggn.streamlit.app/))**
+**[Open the live dashboard →]([YOUR-APP-LINK](https://temple-coffee-dashboard-9eatayew7d9vqztbbb9ggn.streamlit.app/)**
 
 A GIS site-selection and cannibalization study for Temple Coffee Roasters, a nine-store specialty coffee chain in the Sacramento region, built entirely on public data.
 
